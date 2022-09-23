@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&family=Kumbh+Sans:wght@300;400;700;800;900&display=swap');
+$bg-color1: #0a146e;
+$bg-color2: #ffffff;
+
+$color1:#ffffff;
+$color2:#2e3c57;
+$font-family: 'Inter',sans-serif;
+
+$font-size-root:68.6%;
+$font-sze-ele:1.5rem;
+
+header {
+    display: grid;
+    grid-template-columns: auto max-content;
+    gap: 1rem;
+    align-content: center;
+    background-color: $bg-color1;
+    min-height: 64px;
+    color: $color1;
+    padding: 2rem;
+    align-items: center;
+}
+h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    appearance: none;
+    font-size: $font-sze-ele;
+    font-weight: 700;
+    font-family: $font-family;
+}
+.logout{
+	border: none;
+	background-color: $bg-color1;
+	color: $color1;
+	font-weight: 700;
+	font-size: 1.5rem;
+}

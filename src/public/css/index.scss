@@ -1,0 +1,24 @@
+$bg-color1: #0a146e;
+$bg-color2: #ffffff;
+
+$color1:#ffffff;
+$color2:#2e3c57;
+$font-family: 'Inter',sans-serif;
+
+$font-size-root:68.6%;
+$font-sze-ele:1.5rem;
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+    font-size: $font-size-root;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
